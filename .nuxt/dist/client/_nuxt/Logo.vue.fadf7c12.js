@@ -1,0 +1,1 @@
+import{d as e,y as s,o as n,c,m as t}from"./entry.564f8815.js";const a=["src"],p=e({__name:"Logo",setup(r){const{locale:o}=s();return(_,l)=>(n(),c("img",{src:`/logo/${t(o)}.svg`,alt:"Main logo"},null,8,a))}});export{p as _};

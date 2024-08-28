@@ -1,0 +1,113 @@
+
+.vhtml-text,
+.vhtml-text * {
+    transition: 300ms all;
+}
+
+.vhtml-text p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.vhtml-text a {
+    color: #E64545;
+}
+
+.vhtml-text a:hover {
+    text-decoration: underline;
+}
+
+.vhtml-text img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+.vhtml-text blockquote {
+    margin: 20px 0;
+    padding: 20px;
+    position: relative;
+    background: #202233;
+    border-radius: 12px;
+}
+
+
+.vhtml-text blockquote p,
+.vhtml-text blockquote {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+
+.vhtml-text blockquote:before {
+    content: url("/public/svg/vector/quote-pattern.svg");
+    position: absolute;
+    right: 4px;
+    bottom: -8px;
+}
+
+.vhtml-text ol li,
+.vhtml-text ul li {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.vhtml-text ul,
+.vhtml-text ol {
+    padding-left: 20px;
+    margin: 20px 0;
+}
+
+.vhtml-text ul {
+    list-style: disc;
+}
+.vhtml-text ul li::marker{
+    color: #E64545;
+}
+
+.vhtml-text ol {
+    list-style: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .vhtml-text p,
+    .vhtml-text blockquote {
+        font-size: 16px !important;
+        line-height: 140% !important;
+    }
+
+    .vhtml-text img,
+    .vhtml-text blockquote,
+    .vhtml-text ul,
+    .vhtml-text ol {
+        margin: 12px 0;
+    }
+
+    .vhtml-text blockquote {
+        padding: 10px 14px 10px 16px;
+    }
+
+    .vhtml-text table thead tr th {
+        @apply py-3 px-4 text-base;
+    }
+
+    .vhtml-text table tbody tr td {
+        @apply py-4 px-4 text-base;
+    }
+}
+
+@media (max-width: 640px) {
+    .vhtml-text ol li,
+    .vhtml-text blockquote,
+    .vhtml-text ul li {
+        font-size: 14px !important;
+    }
+}

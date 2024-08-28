@@ -1,0 +1,1 @@
+.error-page{background:url(../pattern/help.png) no-repeat #07091c;background-size:cover}.error-title{margin-top:-132px}.error-description{max-width:487px}.shape{animation:rotate 20s linear infinite}@keyframes rotate{0%{transform:rotate(0)}to{transform:rotate(1turn)}}@media screen and (max-width:768px){.shape{max-width:70%!important}.logo-moon{max-width:18%!important}}

@@ -1,0 +1,1 @@
+{"version":3,"file":"Logo-a89e0c66.js","sources":["../../../../components/Common/Logo.vue"],"sourcesContent":["<template>\n  <img :src=\"`/logo/${locale}.svg`\" alt=\"Main logo\" />\n</template>\n\n<script setup lang=\"ts\">\nconst { locale } = useI18n()\n</script>\n\n<style scoped></style>\n"],"names":[],"mappings":";;;;;;;AAKA,UAAA,EAAA,WAAA;;;;;;;;;;;;;;;"}

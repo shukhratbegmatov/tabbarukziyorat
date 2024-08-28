@@ -1,0 +1,1 @@
+import{_ as t}from"./_plugin-vue_export-helper.c27b6911.js";import{o,c as r,G as a,e as s,t as c}from"./entry.564f8815.js";const n={};function i(e,l){return o(),r("div",null,[a("Single posts/ "),s("b",null,"ID: "+c(e.$route.params.id),1)])}const p=t(n,[["render",i]]);export{p as default};

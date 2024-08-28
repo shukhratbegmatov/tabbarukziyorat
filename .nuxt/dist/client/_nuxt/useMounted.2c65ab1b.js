@@ -1,0 +1,1 @@
+import{z as o,D as r,V as u}from"./entry.564f8815.js";async function s(){const e=o(!1);return r(()=>{u(()=>{e.value=!0}).then(t=>t);const n=document.getElementById("header-breadcrumbs");n&&(n.innerHTML="")}),{mounted:e}}export{s as u};

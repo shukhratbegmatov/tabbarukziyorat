@@ -1,0 +1,1 @@
+import{o as e,c as o,b as t,w as s,T as r,aa as c}from"./entry.564f8815.js";import{_}from"./_plugin-vue_export-helper.c27b6911.js";const i={name:"religions"},p={class:"w-full"};function d(a,m,f,l,u,x){const n=c;return e(),o("div",p,[t(r,{name:"fade",mode:"out-in"},{default:s(()=>[(e(),o("div",{key:a.$route.path},[t(n)]))]),_:1})])}const g=_(i,[["render",d]]);export{g as default};

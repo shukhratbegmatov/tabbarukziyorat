@@ -1,0 +1,115 @@
+module.exports = {
+  purge: [
+    './components/**/*.{vue,js,ts}',
+    './layouts/**/*.vue',
+    './pages/**/*.vue',
+    './directives/**/*.{js,ts}',
+    './plugins/**/*.{js,ts}',
+    './nuxt.config.{js,ts}',
+    './app.vue',
+  ],
+  mode: 'jit',
+  theme: {
+    container: {
+      center: true,
+      padding: '1rem',
+      screens: ['1224px'],
+    },
+    extend: {
+      colors: {
+        red: {
+          100: '#E54545',
+          DEFAULT: '#E64545',
+        },
+        dark: {
+          100: '#202233',
+          200: '#111325',
+          300: '#1B1D2E',
+          400: '#252738',
+          500: '#040613',
+          DEFAULT: '#07091C',
+        },
+        gray: {
+          100: '#727272',
+          DEFAULT: '#969696',
+          200: '#515360',
+          300: '#83848D',
+          400: '#636470',
+        },
+        blue: {
+          DEFAULT: '#4392E0',
+        },
+        green: {
+          DEFAULT: '#4CAD6B',
+        },
+        orange: {
+          DEFAULT: '#E6855C',
+        },
+      },
+      fontFamily: {
+        gilroy: ['Gilroy'],
+        playfair: ['Playfair Display'],
+      },
+      fontSize: {
+        40: '40px',
+        32: '32px',
+        80: '80px',
+      },
+      boxShadow: {
+        md: '0px 10px 30px rgba(7, 9, 28, 0.2)',
+      },
+      gridTemplateColumns: {
+        'max-1': 'max-content 1fr',
+      },
+      gridTemplateRows: {
+        'max-1': 'max-content 1fr',
+      },
+      opacity: {
+        8: '0.08',
+        12: '0.12',
+        18: '0.18',
+      },
+      aspectRatio: {
+        'location-image': '118 / 72',
+      },
+      zIndex: {
+        1: '1',
+        2: '2',
+        3: '3',
+        4: '4',
+        5: '5',
+        6: '6',
+        7: '7',
+        8: '8',
+        9: '9',
+        11: '11',
+        12: '12',
+        13: '13',
+        14: '14',
+        15: '15',
+        16: '16',
+        17: '17',
+        18: '18',
+        19: '19',
+        21: '21',
+        22: '22',
+        23: '23',
+        24: '24',
+        25: '25',
+        26: '26',
+        27: '27',
+        28: '28',
+        29: '29',
+      },
+      lineHeight: {
+        20: '20px',
+        22: '22px',
+        120: '120%',
+        130: '130%',
+        140: '140%',
+        150: '150%',
+      },
+    },
+  },
+  plugins: [],
+}

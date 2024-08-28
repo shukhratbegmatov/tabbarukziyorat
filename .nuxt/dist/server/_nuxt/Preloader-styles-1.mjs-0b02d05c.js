@@ -1,0 +1,5 @@
+const Preloader_vue_vue_type_style_index_0_scoped_fc8f2b51_lang = ".skeleton[data-v-fc8f2b51]{animation-duration:1s;animation-fill-mode:forwards;animation-iteration-count:infinite;animation-name:placeholderShimmer-fc8f2b51;animation-timing-function:linear;background:#07091c;background-image:linear-gradient(90deg,#07091c 5.93%,#202233 26.56%,#07091c 62.69%);background-repeat:no-repeat;background-size:var(--width) var(--height);border-radius:var(--border-radius);display:inline-block;height:100%;position:relative;width:100%}.dark .skeleton[data-v-fc8f2b51]{background:linear-gradient(90deg,hsla(216,9%,78%,.3) 5.93%,hsla(0,0%,100%,.42) 26.56%,hsla(216,9%,78%,.3) 62.69%)!important}@keyframes placeholderShimmer-fc8f2b51{0%{background-position:-468px 0}to{background-position:468px 0}}.skeleton-enter-active[data-v-fc8f2b51],.skeleton-leave-active[data-v-fc8f2b51]{transition:all .3s ease-in-out}.skeleton-enter[data-v-fc8f2b51],.skeleton-leave-to[data-v-fc8f2b51]{opacity:0}";
+export {
+  Preloader_vue_vue_type_style_index_0_scoped_fc8f2b51_lang as default
+};
+//# sourceMappingURL=Preloader-styles-1.mjs-0b02d05c.js.map
